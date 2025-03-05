@@ -1,0 +1,17 @@
+{
+    "api": {
+        "enabled": false,
+        "endpoint": "",
+        "api_key": "",
+        "headers": {
+            "Content-Type": "application/json",
+            "User-Agent": "WindsurfMonitor/1.0"
+        }
+    },
+    "monitoring": {
+        "watch_directory": ".",
+        "output_directory": "logs",
+        "max_history": 100,
+        "save_to_disk": true
+    }
+} 
